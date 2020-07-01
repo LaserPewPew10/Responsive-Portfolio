@@ -3,7 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
+    <!-- Link to BootStrap on CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- Link to Javascript, jQuery, Bootstarp  -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Header with Navigation  -->
+    <header class="container-fluid">
+      <nav class="row">
+        <h1 class="col-sm-3 h1 center">Justin Ramirez</h1>
+        <ul class="nav col-md-8 end">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item"></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Second Heading incorporating Portfolio  -->
+
+    <!-- Incorporating portfolio with image showcasing  -->
+    <main class="container container-sm-main">
+      <div>
+        <section>
+          <h2 class="portfolioHeader">Portfolio</h2>
+        </section>
+      </div>
+      <div class="col-lg-1-col-offset-6 centered">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="assets/View-over-Lucerne-Switzerland.jpg"
+                class="card-img-top"
+                alt="City of Lucerne"
+              />
+              <div class="card-body">
+                <h5 class="card-title">City of Lucerne</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="assets/City of Geneva .jpg"
+                class="card-img-top"
+                id="a"
+                alt="City of Geneva"
+              />
+              <div class="card-body">
+                <h5 class="card-title">City of Geneva</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="assets/kimpton-barcelona-1700x750-v2.jpeg"
+                class="card-img-top"
+                alt="City of Barcelona"
+              />
+              <div class="card-body">
+                <h5 class="card-title">City of Barcelona</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="assets/Romer-town-hall-Germany-Frankfurt-am-Main.jpg"
+                class="card-img-top"
+                alt="City of Frankfurt"
+              />
+              <div class="card-body">
+                <h5 class="card-title">City of Frankfurt</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer  -->
+    <div class="d-flex flex-column sticky-footer-wrapper">
+      <nav></nav>
+      <main class="flex-fill"></main>
+      <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy;</small>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
